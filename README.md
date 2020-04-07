@@ -29,6 +29,8 @@ For more information about OpenAPI/Swagger please visit https://swagger.io/.
 
 ## Testing
 
+!!! Could be tested only manually on http://localhost:4000/doc/#/ 
+
 After application running open new terminal and enter:
 
 To test without authorization
