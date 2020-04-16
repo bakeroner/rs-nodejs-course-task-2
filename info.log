@@ -1,1 +1,1 @@
-
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-16T02:29:24.706Z"}

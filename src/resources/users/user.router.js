@@ -2,19 +2,20 @@ const router = require('express').Router();
 const User = require('./user.model');
 const usersService = require('./user.service');
 const { wrapAsync } = require('../../helpers/async-helper');
+const CustomError = require('../../helpers/custom-error');
 
 router
   .route('/')
   .get(
     wrapAsync(async (req, res) => {
       const users = await usersService.getAll();
-      res.json(users.map(User.toResponse));
+      res.status(200).json(users.map(User.toResponse));
     })
   )
   .post(
     wrapAsync(async (req, res) => {
-      const userId = await usersService.createUser(req.body);
-      res.send(userId);
+      const user = await usersService.createUser(req.body);
+      res.status(200).json(User.toResponse(user));
     })
   );
 router
@@ -23,21 +24,23 @@ router
     wrapAsync(async (req, res) => {
       const userId = req.params.userId;
       const userData = await usersService.getById(userId);
-      res.json(User.toResponse(userData));
+      if (!userData) {
+        throw new CustomError('No such data', 404);
+      }
+      res.status(200).json(User.toResponse(userData));
     })
   )
   .put(
     wrapAsync(async (req, res) => {
-      req.body.id = req.params.userId;
       const result = await usersService.updateUser(req.body);
-      res.send(result);
+      res.status(200).json(User.toResponse(result));
     })
   )
   .delete(
     wrapAsync(async (req, res) => {
       const userId = req.params.userId;
-      const result = await usersService.deleteUser(userId);
-      res.json(result);
+      await usersService.deleteUser(userId);
+      res.sendStatus(204);
     })
   );
 

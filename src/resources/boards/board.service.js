@@ -1,23 +1,14 @@
-const boardRepo = require('../../db/db.service');
-const tableName = require('../../db/db-tables').boards;
-const Board = require('./board.model');
-const taskService = require('../tasks/task.service');
+const boardRepo = require('./board.db.repository');
 
-const getAll = () => boardRepo.getAll(tableName);
+const getAll = async () => boardRepo.getAll();
 
-const getById = boardId => boardRepo.getById(tableName, boardId);
+const getById = async boardId => boardRepo.getById(boardId);
 
-const createBoard = boardData =>
-  boardRepo.createNote(tableName, new Board(boardData));
+const createBoard = async boardData => boardRepo.createNote(boardData);
 
-const deleteBoard = async boardId => {
-  const boardDeletedId = await boardRepo.deleteNote(tableName, boardId);
-  await taskService.onBoardDelete(boardDeletedId);
-  return boardDeletedId;
-};
+const deleteBoard = async boardId => boardRepo.deleteNote(boardId);
 
-const updateBoard = boardData =>
-  boardRepo.updateNote(tableName, new Board(boardData));
+const updateBoard = async boardData => boardRepo.updateNote(boardData);
 
 module.exports = {
   getAll,

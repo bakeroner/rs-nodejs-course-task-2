@@ -2,50 +2,49 @@ const router = require('express').Router();
 const Task = require('./task.model');
 const taskService = require('./task.service');
 const { wrapAsync } = require('../../helpers/async-helper');
-
-const boardCheck = async (req, res, next) => {
-  res.locals.boardId = req.params.boardId;
-  await taskService.checkBoard(req.params.boardId);
-  next();
-};
+const CustomError = require('../../helpers/custom-error');
 
 router
   .route('/:boardId/tasks')
-  .all(wrapAsync(boardCheck))
   .get(
     wrapAsync(async (req, res) => {
-      const tasks = await taskService.getAll(res.locals.boardId);
-      res.json(tasks.map(Task.toResponse));
+      const tasks = await taskService.getAll(req.params.boardId);
+      res.status(200).json(tasks.map(Task.toResponse));
     })
   )
   .post(
     wrapAsync(async (req, res) => {
-      const taskId = await taskService.createTask(req.body);
-      res.send(taskId);
+      const reqData = {
+        ...req.body,
+        boardId: req.params.boardId
+      };
+      const taskId = await taskService.createTask(reqData);
+      res.status(200).send(Task.toResponse(taskId));
     })
   );
 router
   .route('/:boardId/tasks/:taskId')
-  .all(wrapAsync(boardCheck))
   .get(
     wrapAsync(async (req, res) => {
       const taskId = req.params.taskId;
-      const taskData = await taskService.getById(taskId);
-      res.json(Task.toResponse(taskData));
+      const taskData = await taskService.getById(req.params.boardId, taskId);
+      if (!taskData) {
+        throw new CustomError('No such data', 404);
+      }
+      res.status(200).json(Task.toResponse(taskData));
     })
   )
   .put(
     wrapAsync(async (req, res) => {
-      req.body.id = req.body.id || req.params.taskId;
-      const result = await taskService.updateTask(req.body);
-      res.send(result);
+      const result = await taskService.updateTask(req.params.boardId, req.body);
+      res.status(200).send(Task.toResponse(result));
     })
   )
   .delete(
     wrapAsync(async (req, res) => {
       const taskId = req.params.taskId;
-      const result = await taskService.deleteTask(taskId);
-      res.json(result);
+      await taskService.deleteTask(req.params.boardId, taskId);
+      res.sendStatus(204);
     })
   );
 
