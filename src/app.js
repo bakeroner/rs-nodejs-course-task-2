@@ -5,23 +5,39 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const taskRouter = require('./resources/tasks/task.router');
 const boardRouter = require('./resources/boards/board.router');
+const authorizationRouter = require('./middleware/authorization/authorization');
 const logger = require('./middleware/logger/logger-settings');
 const CustomError = require('./helpers/custom-error');
+const loggingFunc = require('./middleware/logger/req-logging');
+const jwt = require('jsonwebtoken');
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
-app.use('', (req, res, next) => {
-  const logMsg = `requestType: ${req.method} | requestUrl: ${req.originalUrl} | query params: ${JSON.stringify(req.query)} | body: ${JSON.stringify(req.body)}`;
-  logger.info(logMsg);
-  next();
-});
+app.use('', loggingFunc);
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
-
+app.use('/login', authorizationRouter);
 app.use('/', (req, res, next) => {
   if (req.originalUrl === '/') {
     res.send('Service is running!');
     return;
+  }
+  next();
+});
+app.use('', (req, res, next) => {
+  if (process.env.AUTH_MODE === 'true') {
+    if (!req.headers.authorization) {
+      throw new CustomError('Invalid token', 401);
+    }
+    jwt.verify(
+      req.headers.authorization.split(' ')[1],
+      process.env.JWT_SECRET_KEY,
+      (err, decoded) => {
+        if (err) {
+          throw new CustomError('Invalid token', 401);
+        }
+      }
+    );
   }
   next();
 });

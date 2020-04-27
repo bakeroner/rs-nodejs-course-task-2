@@ -1,1 +1,510 @@
 {"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-16T02:29:24.706Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T19:23:50.333Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T19:23:50.421Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T19:23:50.422Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T19:23:50.425Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T19:23:50.426Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T20:57:26.945Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T20:57:26.978Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T20:57:26.989Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T20:57:26.990Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-16T20:57:26.990Z"}
+{"message":"    requestType: GET | requestUrl: /?qwe=123 | query params: {\"qwe\":\"123\"} | body: {}","level":"info","timestamp":"2020-04-16T20:57:40.175Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T08:49:48.399Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T08:50:02.910Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T08:50:02.923Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:02.926Z"}
+{"message":"    requestType: POST | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:02.995Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.049Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T08:50:03.109Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.158Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.278Z"}
+{"message":"    requestType: GET | requestUrl: /users/96a2923d-d25d-44c6-b33e-d18e1abd4b78 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.328Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.344Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c0736868-dc50-40a5-9f7c-ce71a93c84fd | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.394Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/96a2923d-d25d-44c6-b33e-d18e1abd4b78 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.395Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks/65362f6f-fc5f-4bee-acc4-538ec7cf79c1 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.401Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T08:50:03.451Z"}
+{"message":"    requestType: POST | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:03.456Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T08:50:03.472Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/f1e9b40a-9266-4be3-8338-13402897abb6 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.509Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks/f430509e-a5d2-4637-a2fc-f965686dd9c0 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.513Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/f6b845e8-5279-41ff-b3f0-b083285e1e81 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.531Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T08:50:03.567Z"}
+{"message":"    requestType: POST | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:03.569Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T08:50:03.600Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/55ce352b-462e-450f-9089-4ee7a68c4085 | query params: {} | body: {\"id\":\"55ce352b-462e-450f-9089-4ee7a68c4085\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1,\"_id\":\"f251387f-6c24-4d07-b520-4d15f8904b35\"},{\"title\":\"Sprint\",\"order\":2,\"_id\":\"f73df222-d3b6-431a-8842-87c2221ab86c\"}]}","level":"info","timestamp":"2020-04-17T08:50:03.627Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks/00989639-f66f-49b2-a932-342a529cb713 | query params: {} | body: {\"id\":\"00989639-f66f-49b2-a932-342a529cb713\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"b3fc89dd-cb0e-42d1-a04d-040a56f46450\",\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:03.631Z"}
+{"message":"    requestType: PUT | requestUrl: /users/bbae4996-8f76-4bed-85eb-3404fa4a4763 | query params: {} | body: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"bbae4996-8f76-4bed-85eb-3404fa4a4763\"}","level":"info","timestamp":"2020-04-17T08:50:03.658Z"}
+{"message":"    requestType: GET | requestUrl: /boards/55ce352b-462e-450f-9089-4ee7a68c4085 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.685Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks/00989639-f66f-49b2-a932-342a529cb713 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.688Z"}
+{"message":"    requestType: GET | requestUrl: /users/bbae4996-8f76-4bed-85eb-3404fa4a4763 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.718Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks/65362f6f-fc5f-4bee-acc4-538ec7cf79c1 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.742Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/55ce352b-462e-450f-9089-4ee7a68c4085 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.743Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/bbae4996-8f76-4bed-85eb-3404fa4a4763 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.771Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks/65362f6f-fc5f-4bee-acc4-538ec7cf79c1 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.796Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.799Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T08:50:03.845Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450/tasks/65362f6f-fc5f-4bee-acc4-538ec7cf79c1 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.852Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/8719a889-eba7-4ec2-870e-1dc651df4442 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.900Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T08:50:03.904Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/b3fc89dd-cb0e-42d1-a04d-040a56f46450 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.917Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/c0736868-dc50-40a5-9f7c-ce71a93c84fd | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:03.919Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T08:50:03.978Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c0736868-dc50-40a5-9f7c-ce71a93c84fd | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.012Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T08:50:04.034Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T08:50:04.064Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T08:50:04.066Z"}
+{"message":"    requestType: POST | requestUrl: /boards/6db4f127-347a-454b-b789-2a701df8f444/tasks | query params: {} | body: {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"029a525c-fa26-46e0-93ed-554f4fb9abbf\",\"boardId\":\"6db4f127-347a-454b-b789-2a701df8f444\"}","level":"info","timestamp":"2020-04-17T08:50:04.092Z"}
+{"message":"    requestType: POST | requestUrl: /boards/6db4f127-347a-454b-b789-2a701df8f444/tasks | query params: {} | body: {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"029a525c-fa26-46e0-93ed-554f4fb9abbf\",\"boardId\":\"6db4f127-347a-454b-b789-2a701df8f444\"}","level":"info","timestamp":"2020-04-17T08:50:04.094Z"}
+{"message":"    requestType: POST | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks | query params: {} | body: {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"c4fc3365-5fa3-42a2-8d67-0e833975a416\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:04.128Z"}
+{"message":"    requestType: POST | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks | query params: {} | body: {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"c4fc3365-5fa3-42a2-8d67-0e833975a416\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:04.130Z"}
+{"message":"    requestType: POST | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks | query params: {} | body: {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"c4fc3365-5fa3-42a2-8d67-0e833975a416\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:04.142Z"}
+{"message":"    requestType: POST | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks | query params: {} | body: {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"c4fc3365-5fa3-42a2-8d67-0e833975a416\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:04.144Z"}
+{"message":"    requestType: POST | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks | query params: {} | body: {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"c4fc3365-5fa3-42a2-8d67-0e833975a416\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T08:50:04.145Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/029a525c-fa26-46e0-93ed-554f4fb9abbf | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.150Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/28f8a31d-015a-4559-af6a-21ac16fbe92a | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.205Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/fba220ba-212e-41b8-a739-b387d25ae2e5 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.205Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/228af112-ddcd-400d-91de-02e58668f362 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.206Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/06b0a452-4e09-4f84-aa12-32c8062cba3b | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.207Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/054c2725-4872-4ca8-9bb0-9d5573a7c9b5 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.208Z"}
+{"message":"    requestType: GET | requestUrl: /boards/6db4f127-347a-454b-b789-2a701df8f444/tasks/f17ddf4a-78cb-4bcd-8d15-0b8684fba12a | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.258Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.308Z"}
+{"message":"    requestType: GET | requestUrl: /boards/6db4f127-347a-454b-b789-2a701df8f444/tasks/a0ad0ba3-7e49-4b06-ab4a-64aa7964751c | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.311Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/6db4f127-347a-454b-b789-2a701df8f444/tasks/f17ddf4a-78cb-4bcd-8d15-0b8684fba12a | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.366Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/6db4f127-347a-454b-b789-2a701df8f444/tasks/a0ad0ba3-7e49-4b06-ab4a-64aa7964751c | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.367Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/28f8a31d-015a-4559-af6a-21ac16fbe92a | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.370Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/fba220ba-212e-41b8-a739-b387d25ae2e5 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.371Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/228af112-ddcd-400d-91de-02e58668f362 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.372Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/054c2725-4872-4ca8-9bb0-9d5573a7c9b5 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.373Z"}
+{"message":"    requestType: GET | requestUrl: /boards/c4fc3365-5fa3-42a2-8d67-0e833975a416/tasks/06b0a452-4e09-4f84-aa12-32c8062cba3b | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.373Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T08:50:04.423Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T08:50:04.424Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/6db4f127-347a-454b-b789-2a701df8f444 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T08:50:04.425Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T08:50:04.427Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T08:50:04.473Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T08:50:04.474Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:05:12.692Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:05:43.402Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:57.974Z"}
+{"message":"    requestType: GET | requestUrl: /boards/12345/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:57.984Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:57.986Z"}
+{"message":"    requestType: GET | requestUrl: /boards/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:58.118Z"}
+{"message":"    requestType: GET | requestUrl: /boards/12345/tasks/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:58.166Z"}
+{"message":"    requestType: GET | requestUrl: /users/123 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:58.223Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:05:58.269Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:05:58.357Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:05:58.367Z"}
+{"message":"    requestType: POST | requestUrl: /boards/12345/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:05:58.370Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:05:58.420Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T23:05:58.423Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/12345 | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:05:58.485Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/12345/tasks/12345 | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:05:58.492Z"}
+{"message":"    requestType: PUT | requestUrl: /users/12345 | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T23:05:58.532Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:58.544Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/12345/tasks/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:58.548Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:05:58.586Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:06:20.348Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:09:45.366Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:09:59.924Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:11:17.216Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:11:25.525Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:17:06.474Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:22:39.972Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:26:34.484Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:28:32.802Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:28:50.360Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:29:05.195Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:35:50.617Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:37:43.201Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:38:43.828Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:40:16.642Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:40:48.118Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:41:14.501Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:41:48.578Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:49:59.094Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:51:41.833Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:51:50.662Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:52:01.208Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:53:09.450Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:54:04.432Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:54:20.592Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:54:20.610Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:20.615Z"}
+{"message":"    requestType: POST | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:20.684Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:20.741Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T23:54:20.803Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:20.854Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:20.980Z"}
+{"message":"    requestType: GET | requestUrl: /users/fb9f827b-e687-48f5-b3b3-443f0b8a822a | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.029Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.038Z"}
+{"message":"    requestType: GET | requestUrl: /boards/08ceedcf-436a-4212-9ea1-bc60cba29660 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.101Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks/5ea50647-9618-4860-87ba-1b11b16e7028 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.102Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/fb9f827b-e687-48f5-b3b3-443f0b8a822a | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.104Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:54:21.156Z"}
+{"message":"    requestType: POST | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.161Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T23:54:21.182Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks/934e8f4a-901f-4455-af3b-0a01529a5c27 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.221Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/9b8bea03-2bc9-45cf-976a-8285b554f26e | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.222Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/2ce79ec4-e577-4f77-a146-0b6e83cb9c4b | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.243Z"}
+{"message":"    requestType: POST | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.276Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:54:21.281Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T23:54:21.316Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks/56b61a50-5397-4659-9409-3041e5b980aa | query params: {} | body: {\"id\":\"56b61a50-5397-4659-9409-3041e5b980aa\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"b5c20642-0d56-4fdf-8632-bec426c03959\",\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.334Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/73e71774-16df-4538-b46e-d68e96cc1f52 | query params: {} | body: {\"id\":\"73e71774-16df-4538-b46e-d68e96cc1f52\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1,\"_id\":\"f796ff79-f799-4288-b0e9-fa2ba3a10703\"},{\"title\":\"Sprint\",\"order\":2,\"_id\":\"363e0050-d2bd-4bc4-a785-1f1036385172\"}]}","level":"info","timestamp":"2020-04-17T23:54:21.338Z"}
+{"message":"    requestType: PUT | requestUrl: /users/94a187a9-6829-4ee6-b669-9a56c52fe814 | query params: {} | body: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"94a187a9-6829-4ee6-b669-9a56c52fe814\"}","level":"info","timestamp":"2020-04-17T23:54:21.378Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks/56b61a50-5397-4659-9409-3041e5b980aa | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.393Z"}
+{"message":"    requestType: GET | requestUrl: /boards/73e71774-16df-4538-b46e-d68e96cc1f52 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.398Z"}
+{"message":"    requestType: GET | requestUrl: /users/94a187a9-6829-4ee6-b669-9a56c52fe814 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.436Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks/5ea50647-9618-4860-87ba-1b11b16e7028 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.447Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/73e71774-16df-4538-b46e-d68e96cc1f52 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.456Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/94a187a9-6829-4ee6-b669-9a56c52fe814 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.492Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks/5ea50647-9618-4860-87ba-1b11b16e7028 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.504Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.512Z"}
+{"message":"    requestType: GET | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959/tasks/5ea50647-9618-4860-87ba-1b11b16e7028 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.565Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T23:54:21.567Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:54:21.629Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/08ceedcf-436a-4212-9ea1-bc60cba29660 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.631Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/b5c20642-0d56-4fdf-8632-bec426c03959 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.633Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/f392bf6e-8e11-489f-a8c3-95fd082df96b | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.634Z"}
+{"message":"    requestType: GET | requestUrl: /boards/08ceedcf-436a-4212-9ea1-bc60cba29660 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.697Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-17T23:54:21.746Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:54:21.749Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:54:21.751Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-17T23:54:21.807Z"}
+{"message":"    requestType: POST | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks | query params: {} | body: {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"95ace716-bb59-4d98-8fe5-a7fd88cd51f0\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.815Z"}
+{"message":"    requestType: POST | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks | query params: {} | body: {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"95ace716-bb59-4d98-8fe5-a7fd88cd51f0\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.816Z"}
+{"message":"    requestType: POST | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks | query params: {} | body: {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"95ace716-bb59-4d98-8fe5-a7fd88cd51f0\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.817Z"}
+{"message":"    requestType: POST | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks | query params: {} | body: {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"95ace716-bb59-4d98-8fe5-a7fd88cd51f0\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.818Z"}
+{"message":"    requestType: POST | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks | query params: {} | body: {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"95ace716-bb59-4d98-8fe5-a7fd88cd51f0\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-17T23:54:21.819Z"}
+{"message":"    requestType: POST | requestUrl: /boards/25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8/tasks | query params: {} | body: {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"e2ec26b7-4d14-48b9-b39d-58496c6d3d9e\",\"boardId\":\"25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8\"}","level":"info","timestamp":"2020-04-17T23:54:21.868Z"}
+{"message":"    requestType: POST | requestUrl: /boards/25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8/tasks | query params: {} | body: {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"e2ec26b7-4d14-48b9-b39d-58496c6d3d9e\",\"boardId\":\"25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8\"}","level":"info","timestamp":"2020-04-17T23:54:21.869Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/88fbdf3b-4add-46fd-b9f8-c64a8e776123 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.924Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/2d740bd5-9b26-48d2-b3eb-89ee7789d92e | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.926Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/a1c94862-db7e-4ad1-8bcb-16c7ecb46d22 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.926Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/c61244b7-d18f-41c4-b7df-73e0da2271fb | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.927Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/f0ec5352-3e4d-48de-a80c-da551c6829f8 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.928Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/e2ec26b7-4d14-48b9-b39d-58496c6d3d9e | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.930Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:21.982Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/2d740bd5-9b26-48d2-b3eb-89ee7789d92e | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.048Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/a1c94862-db7e-4ad1-8bcb-16c7ecb46d22 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.049Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/88fbdf3b-4add-46fd-b9f8-c64a8e776123 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.050Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/c61244b7-d18f-41c4-b7df-73e0da2271fb | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.051Z"}
+{"message":"    requestType: GET | requestUrl: /boards/95ace716-bb59-4d98-8fe5-a7fd88cd51f0/tasks/f0ec5352-3e4d-48de-a80c-da551c6829f8 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.052Z"}
+{"message":"    requestType: GET | requestUrl: /boards/25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8/tasks/c6b6aff6-478d-4ee8-8bb5-5127ad53958f | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.054Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:54:22.101Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:54:22.102Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:54:22.104Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:54:22.105Z"}
+{"message":"   No such data","level":"error","timestamp":"2020-04-17T23:54:22.105Z"}
+{"message":"    requestType: GET | requestUrl: /boards/25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8/tasks/a975cd81-d32a-4b1f-8fb4-8477ac8c1db7 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.154Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8/tasks/c6b6aff6-478d-4ee8-8bb5-5127ad53958f | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.207Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8/tasks/a975cd81-d32a-4b1f-8fb4-8477ac8c1db7 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.208Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/25ab115f-0e5b-4d9d-85dc-5cdc3ab5f1f8 | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:54:22.267Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:56:24.473Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:56:31.101Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:56:31.182Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:56:31.183Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:56:31.183Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-17T23:56:31.184Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:57:02.318Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-17T23:58:37.087Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:05:06.293Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:06:51.095Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:09:42.200Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:11:50.001Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:11:50.058Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:11:50.060Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:11:50.066Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:11:50.067Z"}
+{"message":"    requestType: GET | requestUrl: /doc/favicon-32x32.png | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:11:50.590Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"TEST_USER\",\"password\":\"test_user\"}","level":"info","timestamp":"2020-04-18T00:12:15.522Z"}
+{"message":"   Cannot read property 'login' of undefined","level":"error","timestamp":"2020-04-18T00:12:15.524Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:12:47.710Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"TEST_USER\",\"password\":\"test_user\"}","level":"info","timestamp":"2020-04-18T00:12:51.647Z"}
+{"message":"   Cannot read property 'login' of undefined","level":"error","timestamp":"2020-04-18T00:12:51.677Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:13:11.772Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"TEST_USER\",\"password\":\"test_user\"}","level":"info","timestamp":"2020-04-18T00:13:14.061Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-18T00:13:14.126Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:13:46.387Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"TEST_USER\",\"password\":\"test_user\"}","level":"info","timestamp":"2020-04-18T00:14:16.776Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-18T00:14:16.844Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-18T00:15:43.040Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:15:54.886Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:16:10.644Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:17:08.617Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-18T00:17:08.618Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-18T00:17:24.176Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:17:34.292Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-18T00:17:34.292Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:18:15.286Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-18T00:18:15.291Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:18:31.857Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-18T00:18:55.629Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:19:05.150Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-18T00:19:05.196Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:21:16.397Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:21:20.673Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-18T00:21:20.705Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:21:36.445Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-18T00:21:39.448Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:21:48.788Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-18T00:21:48.791Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:24:43.825Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-18T00:24:52.093Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:25:01.465Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-18T00:25:01.467Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:26:36.888Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:27:09.159Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:27:13.909Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:27:13.976Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:27:13.979Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:27:13.980Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:27:13.982Z"}
+{"message":"    requestType: GET | requestUrl: /doc/favicon-32x32.png | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:27:14.508Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-18T00:27:19.012Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-18T00:27:19.076Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-18T00:27:31.576Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:27:42.904Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:28:28.339Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-18T00:28:31.330Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-18T00:28:40.621Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:47:56.857Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T20:48:16.845Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T20:48:17.009Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T20:48:17.010Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T20:48:17.012Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T20:48:17.012Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T20:48:23.143Z"}
+{"message":"   Cannot read property 'split' of undefined","level":"error","timestamp":"2020-04-22T20:48:23.144Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:49:44.284Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:49:54.461Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:51:21.908Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T20:51:57.908Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T20:51:57.910Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:53:07.732Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T20:53:15.305Z"}
+{"message":"   Invalid token1111","level":"error","timestamp":"2020-04-22T20:53:15.306Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:53:23.954Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:53:44.783Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T20:53:46.668Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T20:53:46.670Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:54:01.953Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T20:54:05.292Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T20:54:05.293Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:54:43.824Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T20:54:47.233Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T20:54:47.235Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:55:53.974Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T20:55:55.202Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T20:55:55.218Z"}
+{"message":"    Unhandled promise rejection CustomError: Can not generate hash password","level":"warn","timestamp":"2020-04-22T20:55:55.221Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:57:14.584Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T20:59:43.011Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:02:09.292Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:02:44.074Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:02:54.249Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:03:00.734Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:03:00.738Z"}
+{"message":"    Unhandled promise rejection CustomError: Can not generate hash password","level":"warn","timestamp":"2020-04-22T21:03:00.741Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:03:54.341Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:04:03.198Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:04:03.202Z"}
+{"message":"    Unhandled promise rejection CustomError: Can not generate hash password","level":"warn","timestamp":"2020-04-22T21:04:03.205Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:05:43.980Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T21:05:53.975Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T21:05:54.049Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T21:05:54.053Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T21:05:54.056Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T21:05:54.056Z"}
+{"message":"    requestType: GET | requestUrl: /doc/favicon-32x32.png | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T21:05:54.544Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:06:00.383Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:06:00.388Z"}
+{"message":"    Unhandled promise rejection CustomError: Can not generate hash password","level":"warn","timestamp":"2020-04-22T21:06:00.389Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:06:19.513Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:06:23.026Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:06:23.032Z"}
+{"message":"    Unhandled promise rejection CustomError: Can not generate hash password","level":"warn","timestamp":"2020-04-22T21:06:23.035Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:07:59.986Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:09:58.614Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:10:31.714Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:10:35.375Z"}
+{"message":"   Can not generate hash password","level":"error","timestamp":"2020-04-22T21:10:35.381Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:11:05.525Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:11:08.323Z"}
+{"message":"   Can not generate hash password","level":"error","timestamp":"2020-04-22T21:11:08.326Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:15:19.302Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:15:23.386Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:18:54.473Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:19:54.554Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:20:06.985Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:21:03.116Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:21:17.370Z"}
+{"message":"   Can not generate hash password","level":"error","timestamp":"2020-04-22T21:21:17.374Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:21:42.541Z"}
+{"message":"   Can not generate hash password","level":"error","timestamp":"2020-04-22T21:21:42.547Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:21:42.700Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:21:52.306Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:23:19.523Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:23:28.272Z"}
+{"message":"   Can not generate hash password","level":"error","timestamp":"2020-04-22T21:23:28.276Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:30:00.378Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:31:21.323Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:31:33.457Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:31:44.584Z"}
+{"message":"   Salt gen error","level":"error","timestamp":"2020-04-22T21:31:44.589Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:32:34.888Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:32:39.418Z"}
+{"message":"   Something went wrong. Please try again.","level":"error","timestamp":"2020-04-22T21:32:39.422Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:34:57.718Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:35:03.568Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:35:03.574Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:37:56.507Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:37:58.798Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:37:58.802Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:39:03.293Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:39:04.170Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:39:04.176Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:41:09.482Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:41:09.741Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:41:09.748Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:43:16.046Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:43:17.533Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:43:17.539Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:44:04.394Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:44:14.578Z"}
+{"message":"   Cannot destructure property `id` of 'undefined' or 'null'.","level":"error","timestamp":"2020-04-22T21:44:14.592Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:45:00.479Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:45:01.313Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:51:02.987Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:51:44.292Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T21:51:46.801Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:52:37.647Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:56:04.199Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T21:57:22.879Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:00:44.982Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:01:12.330Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:02:35.326Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:05:32.476Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T22:06:59.250Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:07:31.051Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:07:58.658Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:08:31.601Z"}
+{"message":"    requestType: GET | requestUrl: /doc/ | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:08:35.847Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui.css | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:08:35.907Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-bundle.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:08:35.909Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-standalone-preset.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:08:35.911Z"}
+{"message":"    requestType: GET | requestUrl: /doc/swagger-ui-init.js | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:08:35.912Z"}
+{"message":"    requestType: GET | requestUrl: /doc/favicon-32x32.png | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:08:36.447Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T22:08:45.863Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:08:58.720Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:09:12.071Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:09:34.583Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:09:59.159Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T22:10:17.997Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:17.998Z"}
+{"message":"    requestType: POST | requestUrl: /boards/undefined/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T22:10:18.006Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.011Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T22:10:18.012Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.014Z"}
+{"message":"    requestType: GET | requestUrl: /boards/undefined/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.019Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.020Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.021Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.021Z"}
+{"message":"    requestType: GET | requestUrl: /boards/undefined/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.024Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.025Z"}
+{"message":"    requestType: POST | requestUrl: /boards/undefined/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T22:10:18.028Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.028Z"}
+{"message":"    requestType: POST | requestUrl: /boards/undefined/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T22:10:18.030Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.031Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/undefined/tasks/undefined | query params: {} | body: {\"title\":\"Autotest updated task\"}","level":"info","timestamp":"2020-04-22T22:10:18.033Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.033Z"}
+{"message":"    requestType: GET | requestUrl: /boards/undefined/tasks/undefined | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.035Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.036Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.038Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.039Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/undefined | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.040Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.040Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.043Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.044Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T22:10:18.047Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.047Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T22:10:18.050Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.050Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:10:18.051Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.052Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/undefined | query params: {} | body: {\"title\":\"Autotest updated board\"}","level":"info","timestamp":"2020-04-22T22:10:18.053Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.054Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:10:18.056Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.057Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.058Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.058Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:10:18.060Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.060Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T22:10:18.061Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.062Z"}
+{"message":"    requestType: PUT | requestUrl: /users/undefined | query params: {} | body: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:10:18.063Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.064Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:10:18.066Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.067Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/undefined | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:10:18.068Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.069Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:10:18.074Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:10:18.075Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:11:24.856Z"}
+{"message":"    requestType: GET | requestUrl: /boards/12345/tasks | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.080Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.096Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.100Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.101Z"}
+{"message":"    requestType: GET | requestUrl: /boards/12345/tasks/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.110Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.111Z"}
+{"message":"    requestType: GET | requestUrl: /users/123 | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.112Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.112Z"}
+{"message":"    requestType: POST | requestUrl: /boards/12345/tasks | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T22:11:28.121Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.122Z"}
+{"message":"    requestType: GET | requestUrl: /boards | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.123Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.123Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:11:28.124Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.125Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/12345/tasks/12345 | query params: {} | body: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T22:11:28.126Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.127Z"}
+{"message":"    requestType: PUT | requestUrl: /users/12345 | query params: {} | body: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T22:11:28.128Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.128Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/12345/tasks/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.129Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.130Z"}
+{"message":"    requestType: GET | requestUrl: /boards/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.131Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.132Z"}
+{"message":"    requestType: DELETE | requestUrl: /users/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.132Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.133Z"}
+{"message":"    requestType: POST | requestUrl: /boards | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T22:11:28.135Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.136Z"}
+{"message":"    requestType: PUT | requestUrl: /boards/12345 | query params: {} | body: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T22:11:28.138Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.139Z"}
+{"message":"    requestType: DELETE | requestUrl: /boards/12345 | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:11:28.141Z"}
+{"message":"   Invalid token","level":"error","timestamp":"2020-04-22T22:11:28.142Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:11:35.114Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"admin\",\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:16:29.544Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:17:08.220Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:17:29.018Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-22T22:17:29.141Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:19:11.224Z"}
+{"message":"    requestType: POST | requestUrl: /users | query params: {} | body: {\"name\":\"admin\",\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:19:18.529Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:19:53.572Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:20:01.846Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-22T22:20:01.968Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:21:45.088Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:22:55.962Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-22T22:22:56.083Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:23:24.597Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:23:44.298Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-22T22:23:44.418Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:24:46.805Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:25:27.566Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-22T22:25:27.688Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:25:40.217Z"}
+{"message":"   Invalid credentials","level":"error","timestamp":"2020-04-22T22:25:40.328Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:26:11.258Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:26:42.565Z"}
+{"message":"    requestType: POST | requestUrl: /login | query params: {} | body: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T22:26:45.599Z"}
+{"message":"    requestType: GET | requestUrl: /users | query params: {} | body: {}","level":"info","timestamp":"2020-04-22T22:27:06.567Z"}
+{"message":"    Unhandled promise rejection MongoError: user is not allowed to do action [dropDatabase] on [test.]","level":"warn","timestamp":"2020-04-22T22:27:23.095Z"}
